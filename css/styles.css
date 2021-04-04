@@ -1,0 +1,25 @@
+/* Fonts */
+.Rubik4{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.Rubik5{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+
+/* Colors */
+.SBlue{
+   color:  #5368df;
+} 
+.VBlue{
+    color: 	#252b46;
+}
+.Red{
+    color: 	#fa5757;
+}
+.Gray{
+    color: #9194a1;
+}
