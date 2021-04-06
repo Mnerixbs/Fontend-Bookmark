@@ -23,3 +23,97 @@
 .Gray{
     color: #9194a1;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fa5757;
+}
+.btnlogin{
+    background: #fa5757;
+    border-color: #fa5757;
+    
+}
+.btnlogin:hover{
+ color: #fa5757;
+ background: transparent;
+ border-color: #fa5757;
+}
+
+.hero{
+    height: 100vh;
+}
+
+ main{
+    height: 100vh;
+    position: relative;
+}
+
+
+main .row{
+    padding-top: 15%;
+}
+main::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    height: 50vh;
+    background-color: #5368df;
+    border-top-left-radius: 30rem;
+    border-bottom-left-radius: 30rem;
+    z-index: -1;
+} 
+.btn-primary{
+   margin: 3px;
+    width: 200px;
+}
+
+.bt-chrome{
+    background-color: #5368df;
+    border-color: #5368df;
+    box-shadow: 1px 2px #5368df7e;
+
+}
+.bt-firefox{
+    background-color: #9194a138;
+    border-color: #9194a138;
+    color: black;
+    box-shadow: 1px 2px #9194a12c;
+}
+.bt-chrome:hover{
+    background-color: transparent;
+    color: #5368df;
+    border-color: #5368df;
+}
+.bt-firefox:hover{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+@media (max-width: 768px) {
+    main::after{
+        content: "";
+        position: absolute;
+        top: 220px;
+        right: 0;
+        width: 60%;
+        height: 25vh;
+        background-color: #5368df;
+        border-top-left-radius: 30rem;
+        border-bottom-left-radius: 30rem;
+        z-index: -1;
+    } 
+    main h1{
+        padding-top: 4rem;
+        text-align: center;
+    }
+    main p{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+}
+
