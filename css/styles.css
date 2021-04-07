@@ -75,12 +75,14 @@ main::after{
     background-color: #5368df;
     border-color: #5368df;
     box-shadow: 1px 2px #5368df7e;
+    width: 250px;
 }
 .bt-firefox{
     background-color: #9194a138;
     border-color: #9194a138;
     color: black;
     box-shadow: 1px 2px #9194a12c;
+    width: 250px;
 }
 .bt-chrome:hover{
     background-color: transparent;
@@ -105,12 +107,42 @@ main::after{
     text-align: center;
     font-size: 19px;
 }
-.click{
-    padding-bottom: 3rem;
+
+.features2 {
+    padding-top: 5rem;
+   
+}
+.features2 h1{
+    text-align: center;
+}
+.features2 p{
+    text-align: center;
+    font-size: 19px;
+}
+
+.features2 .container{
+    padding-top: 3rem;
 }
 .click ul{
     padding-bottom: 3rem;
 
+}
+.click{
+    position: relative;
+}
+
+.click::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(7rem);
+    width: 42%;
+    height: 40vh;
+    background-color: #5368df;
+    border-top-right-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    z-index: -1;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     font-family: 'Rubik', sans-serif;
@@ -130,6 +162,17 @@ main::after{
 }
 .nav-pills .nav-link:hover {   
     color: #fa5757;
+}
+.browsers{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.browsers .row{
+    height: 400px;
+}
+.card {   
+    border: 1px solid rgb(0 0 0 / 0%);
+    box-shadow: 1px 1px 3px 4px #9194a12c;
 }
 @media (max-width: 768px) {
     main::after{
@@ -154,14 +197,29 @@ main::after{
         text-align: center;
     }
     .click h1{
-        padding-top: 2rem;
+        padding-top: 4rem;
         text-align: center;
     }
     .click p{
         text-align: center;
     }
     
-
+    .click::before{
+        content: '';
+        position: absolute;
+        bottom: 260px;
+        left: 0;
+        transform: translateY(1rem);
+        width: 62%;
+        height: 20vh;
+        background-color: #5368df;
+        border-top-right-radius: 30rem;
+        border-bottom-right-radius: 30rem;
+        z-index: -1;
+    }
+    .features2 {
+        padding-top: 1rem;
+    }
 }
 
 @media (max-width: 992px){
@@ -169,10 +227,12 @@ main::after{
         margin-top: 25%;
     }
     .click h1{
-        padding-top: 2rem;
+        padding-top: 4rem;
         text-align: center;
     }
     .click p{
         text-align: center;
     }
+  
 }
+
