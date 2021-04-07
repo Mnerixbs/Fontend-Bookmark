@@ -25,6 +25,7 @@
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;
+  
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fa5757;
@@ -74,7 +75,6 @@ main::after{
     background-color: #5368df;
     border-color: #5368df;
     box-shadow: 1px 2px #5368df7e;
-
 }
 .bt-firefox{
     background-color: #9194a138;
@@ -86,11 +86,50 @@ main::after{
     background-color: transparent;
     color: #5368df;
     border-color: #5368df;
+    box-shadow: 1px 2px transparent;
 }
 .bt-firefox:hover{
     background-color: transparent;
     border-color: black;
     color: black;
+    box-shadow: 1px 2px transparent;
+}
+.features .container{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.features h1{
+    text-align: center;
+}
+.features p{
+    text-align: center;
+    font-size: 19px;
+}
+.click{
+    padding-bottom: 3rem;
+}
+.click ul{
+    padding-bottom: 3rem;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: 	#252b46;
+    background-color: #ffffff00;   
+    border-bottom: 3px solid #fa5757;
+}
+.nav-pills .nav-link {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    background: 0 0;
+    border: 0;
+    border-radius: 0rem;
+    width: 200px;
+    color: #9194a1;
+}
+.nav-pills .nav-link:hover {   
+    color: #fa5757;
 }
 @media (max-width: 768px) {
     main::after{
@@ -114,6 +153,26 @@ main::after{
         padding-bottom: 2rem;
         text-align: center;
     }
+    .click h1{
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .click p{
+        text-align: center;
+    }
+    
 
 }
 
+@media (max-width: 992px){
+    main .row{
+        margin-top: 25%;
+    }
+    .click h1{
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .click p{
+        text-align: center;
+    }
+}
