@@ -1,0 +1,42 @@
+[33mcommit 3a01106dea05c27b21382c934f097a1a57ad8543[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Wed Apr 7 20:23:15 2021 -0500
+
+    Seccion acordion terminada y seccion contacto terminada
+
+[33mcommit fe865d2f4d2e12bf6fdf5ca518ab1870cae15fd5[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Wed Apr 7 15:41:25 2021 -0500
+
+    Seccion dos terminada , seccion de navegadores terminada , Inicia la seccion de preguntas frecuentes
+
+[33mcommit 5c468ca60053f7c736afd7db17300eaac2f779c3[m
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Tue Apr 6 20:10:33 2021 -0500
+
+    seccion features y seccion de acordeon agregadas
+
+[33mcommit e607658c53c2fbd9cde1329db6d2bb0f292f8d25[m
+Merge: f662eae 936491c
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Mon Apr 5 21:43:10 2021 -0500
+
+    Merge branch 'master' of https://github.com/Mnerixbs/Fontend-Bookmark
+
+[33mcommit f662eae6d44d600bb468be3f86bf0be66d71b895[m
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Mon Apr 5 21:42:29 2021 -0500
+
+    Parte principal teminada
+
+[33mcommit 936491cfbc4fe994c158b9e3a60ca943e500a146[m
+Author: Mnerixbs <64327472+Mnerixbs@users.noreply.github.com>
+Date:   Sun Apr 4 00:12:09 2021 -0600
+
+    Create README.md
+
+[33mcommit 49d08b68f8cb3be53ada5dadc5e330fe12841476[m
+Author: Mario Rico <xbsneri@gmail.com>
+Date:   Sun Apr 4 00:09:42 2021 -0600
+
+    Inicialización del proyecto Bookmark de FrontendMentor

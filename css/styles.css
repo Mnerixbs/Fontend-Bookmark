@@ -180,6 +180,8 @@ main::after{
 .accordion-item {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 .accordion-button:not(.collapsed) {
     color: #252b46;
@@ -203,7 +205,7 @@ main::after{
     transition: transform .2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../images/icon-arrow.svg");
+    background-image: url("../images/icon-arrowR.svg");
     transform: rotate(180deg);
 }
 .contact{
@@ -217,10 +219,39 @@ main::after{
  background-color: #fa5757;
  color: white; 
 }
+.btred:hover{
+    background-color: white;
+    color: #fa5757; 
+    border-color: #fa5757;
+   }
 .contact .row{
     color: white;
     width: 75%;
 }
+.footer{
+    background-color: #252b46;
+}
+.footer img{
+ height: 30px;
+ margin-top: 15px;
+}
+.footer p{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+.footer p:hover{
+   color: #fa5757;
+}
+.fab:hover{
+    color: #fa5757;
+}
+.fab{
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: white;
+    margin-top: 20px;
+} 
 @media (max-width: 768px) {
     .acordion .container{
         width: 100%;
@@ -272,6 +303,9 @@ main::after{
     }
     .features2 {
         padding-top: 1rem;
+    }
+    .fab{
+        padding-bottom: 1rem;
     }
 }
 
